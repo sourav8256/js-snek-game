@@ -2,7 +2,6 @@ var snake, apple, squareSize, score, speed,
     updateDelay, direction, new_direction,
     addNew, cursors, scoreTextValue, speedTextValue, textStyle_Key, textStyle_Value;
 
-var controller = new Controller.start();
 
 
 var Game = {
@@ -243,13 +242,3 @@ var Game = {
     }
 
 };
-
-var Controller = {
-
-
-    start : function(){
-
-    }
-
-
-}
